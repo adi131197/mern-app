@@ -15,9 +15,9 @@ app.use(require('./router/auth'))
 const PORT = process.env.PORT || 5000;
 
 
-app.get('/', (req,res) => {
-  res.send("HELLO WORLD FROM SERVER");  
-})
+// app.get('/', (req,res) => {
+//   res.send("HELLO WORLD FROM SERVER");  
+// })
 
 // app.get('/about', (req,res) => {
 //     res.send("HELLO ABOUT PAGE")

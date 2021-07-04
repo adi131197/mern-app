@@ -5,11 +5,6 @@ const jwt = require('jsonwebtoken')
 const User = require('../model/userSchema');
 const Authenticate = require('../middleware/authenticate')
 
-router.get('/', (req,res)=> {
-    console.log('MERN App server side.');
-})
-
-
 // Register Route
 router.post('/register', async (req,res)=> {
     const { name, email, phone, work, password, cpassword } = req.body;
